@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-17T10:52:40 IST" name="Default suite" finished-at="2023-02-17T10:52:40 IST" duration-ms="58">
+    <groups>
+      <group name="Regression">
+        <method signature="GroupTest.testcase2()[pri:1, instance:Project_Mav.GroupTest@55f616cf]" name="testcase2" class="Project_Mav.GroupTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="GroupTest.testcase1()[pri:0, instance:Project_Mav.GroupTest@55f616cf]" name="testcase1" class="Project_Mav.GroupTest"/>
+        <method signature="GroupTest.testcase3()[pri:2, instance:Project_Mav.GroupTest@55f616cf]" name="testcase3" class="Project_Mav.GroupTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-02-17T10:52:40 IST" name="Default test" finished-at="2023-02-17T10:52:40 IST" duration-ms="58">
+      <class name="Project_Mav.GroupTest">
+        <test-method signature="testcase1()[pri:0, instance:Project_Mav.GroupTest@55f616cf]" started-at="2023-02-17T10:52:40 IST" name="testcase1" finished-at="2023-02-17T10:52:40 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:1, instance:Project_Mav.GroupTest@55f616cf]" started-at="2023-02-17T10:52:40 IST" name="testcase2" finished-at="2023-02-17T10:52:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase3()[pri:2, instance:Project_Mav.GroupTest@55f616cf]" started-at="2023-02-17T10:52:40 IST" name="testcase3" finished-at="2023-02-17T10:52:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- Project_Mav.GroupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
