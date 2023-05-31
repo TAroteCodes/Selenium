@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T23:49:18 IST" name="Default suite" finished-at="2023-02-13T23:50:11 IST" duration-ms="52677">
+  <suite started-at="2023-02-27T13:03:20 IST" name="Default suite" finished-at="2023-02-27T13:07:41 IST" duration-ms="261350">
     <groups>
     </groups>
-    <test started-at="2023-02-13T23:49:18 IST" name="Default test" finished-at="2023-02-13T23:50:11 IST" duration-ms="52677">
-      <class name="rahulshetty_academy.testQA_test">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:rahulshetty_academy.testQA_test@4f67eb2a]" started-at="2023-02-13T23:49:18 IST" name="beforeTest" finished-at="2023-02-13T23:49:33 IST" duration-ms="14348" status="PASS">
+    <test started-at="2023-02-27T13:03:20 IST" name="Default test" finished-at="2023-02-27T13:07:41 IST" duration-ms="261350">
+      <class name="rahulshetty_academy.rs_assignment">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:03:20 IST" name="beforeTest" finished-at="2023-02-27T13:05:59 IST" duration-ms="159519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:rahulshetty_academy.testQA_test@4f67eb2a]" started-at="2023-02-13T23:49:33 IST" name="f" finished-at="2023-02-13T23:50:11 IST" duration-ms="38230" status="PASS">
+        <test-method signature="RB_Example()[pri:0, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:05:59 IST" name="RB_Example" finished-at="2023-02-27T13:06:05 IST" duration-ms="6124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:rahulshetty_academy.testQA_test@4f67eb2a]" started-at="2023-02-13T23:50:11 IST" name="afterTest" finished-at="2023-02-13T23:50:11 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- RB_Example -->
+        <test-method signature="Suggestion()[pri:1, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:05 IST" name="Suggestion" finished-at="2023-02-27T13:06:10 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Suggestion -->
+        <test-method signature="Dropdown()[pri:2, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:10 IST" name="Dropdown" finished-at="2023-02-27T13:06:19 IST" duration-ms="8925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dropdown -->
+        <test-method signature="checkbox()[pri:3, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:19 IST" name="checkbox" finished-at="2023-02-27T13:06:25 IST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox -->
+        <test-method signature="Switch_window()[pri:4, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:25 IST" name="Switch_window" finished-at="2023-02-27T13:06:37 IST" duration-ms="11582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Switch_window -->
+        <test-method signature="Switch_Tab()[pri:5, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:37 IST" name="Switch_Tab" finished-at="2023-02-27T13:06:47 IST" duration-ms="10159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Switch_Tab -->
+        <test-method signature="Switch_To_Alert()[pri:6, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:47 IST" name="Switch_To_Alert" finished-at="2023-02-27T13:06:59 IST" duration-ms="12042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Switch_To_Alert -->
+        <test-method signature="Element_Display()[pri:7, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:06:59 IST" name="Element_Display" finished-at="2023-02-27T13:07:09 IST" duration-ms="9440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Element_Display -->
+        <test-method signature="table()[pri:8, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:07:09 IST" name="table" finished-at="2023-02-27T13:07:12 IST" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+        <test-method signature="Mouse_hover()[pri:9, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:07:12 IST" name="Mouse_hover" finished-at="2023-02-27T13:07:34 IST" duration-ms="22428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mouse_hover -->
+        <test-method signature="iframe()[pri:10, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:07:34 IST" name="iframe" finished-at="2023-02-27T13:07:41 IST" duration-ms="6698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframe -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:rahulshetty_academy.rs_assignment@2525ff7e]" started-at="2023-02-27T13:07:41 IST" name="afterTest" finished-at="2023-02-27T13:07:41 IST" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- rahulshetty_academy.testQA_test -->
+      </class> <!-- rahulshetty_academy.rs_assignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

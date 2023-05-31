@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31999" started-at="2022-12-08T14:13:19 IST" finished-at="2022-12-08T14:13:51 IST">
+  <suite started-at="2023-03-08T13:13:30 IST" name="Default suite" finished-at="2023-03-08T13:14:22 IST" duration-ms="52377">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31999" started-at="2022-12-08T14:13:19 IST" finished-at="2022-12-08T14:13:51 IST">
+    <test started-at="2023-03-08T13:13:30 IST" name="Default test" finished-at="2023-03-08T13:14:22 IST" duration-ms="52377">
       <class name="Learning.Testng">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Learning.Testng@23e028a9]" name="BeforeTest" is-config="true" duration-ms="23686" started-at="2022-12-08T14:13:19 IST" finished-at="2022-12-08T14:13:43 IST">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:Learning.Testng@55740540]" started-at="2023-03-08T13:13:30 IST" name="BeforeTest" finished-at="2023-03-08T13:14:20 IST" duration-ms="49820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Learning.Testng@23e028a9]" name="login" duration-ms="3909" started-at="2022-12-08T14:13:43 IST" finished-at="2022-12-08T14:13:47 IST">
+        <test-method signature="LOOP()[pri:0, instance:Learning.Testng@55740540]" started-at="2023-03-08T13:14:20 IST" name="LOOP" finished-at="2023-03-08T13:14:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOOP -->
+        <test-method signature="LOOP()[pri:0, instance:Learning.Testng@55740540]" started-at="2023-03-08T13:14:20 IST" name="LOOP" finished-at="2023-03-08T13:14:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOOP -->
+        <test-method signature="LOOP()[pri:0, instance:Learning.Testng@55740540]" started-at="2023-03-08T13:14:20 IST" name="LOOP" finished-at="2023-03-08T13:14:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOOP -->
+        <test-method signature="login()[pri:0, instance:Learning.Testng@55740540]" started-at="2023-03-08T13:14:20 IST" name="login" finished-at="2023-03-08T13:14:22 IST" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:1, instance:Learning.Testng@23e028a9]" name="logout" duration-ms="4005" started-at="2022-12-08T14:13:47 IST" finished-at="2022-12-08T14:13:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Learning.Testng@23e028a9]" name="afterTest" is-config="true" duration-ms="333" started-at="2022-12-08T14:13:51 IST" finished-at="2022-12-08T14:13:51 IST">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Learning.Testng@55740540]" started-at="2023-03-08T13:14:22 IST" name="afterTest" finished-at="2023-03-08T13:14:22 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

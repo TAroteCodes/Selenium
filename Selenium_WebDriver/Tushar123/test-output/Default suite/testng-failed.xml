@@ -3,13 +3,43 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Project_Mav.Data_Provider">
+      <class name="Project_Mav.TestQA">
         <methods>
-          <include name="afterTest"/>
+          <include name="Menu"/>
+          <include name="Model_Dialogs"/>
+          <include name="Nestedframes"/>
+          <include name="Radio_Button"/>
+          <include name="dynamic_properties"/>
+          <include name="new_window"/>
+          <include name="text"/>
+          <include name="resizable"/>
           <include name="beforeTest"/>
-          <include name="data_provider" invocation-numbers="1"/>
+          <include name="Selectable"/>
+          <include name="brawser_windows_tab"/>
+          <include name="Progress_Bar"/>
+          <include name="draggable"/>
+          <include name="download_upload"/>
+          <include name="afterTest"/>
+          <include name="Web_Table"/>
+          <include name="Slider"/>
+          <include name="Tabs"/>
+          <include name="Auto_Complete"/>
+          <include name="Buttons"/>
+          <include name="forms"/>
+          <include name="Links"/>
+          <include name="Alert"/>
+          <include name="Sortable"/>
+          <include name="Select_Menu"/>
+          <include name="Check_Box"/>
+          <include name="droppable"/>
+          <include name="Date_picker"/>
+          <include name="Accordian"/>
+          <include name="frames"/>
+          <include name="broken_link"/>
+          <include name="new_message_window"/>
+          <include name="Tool_Tips"/>
         </methods>
-      </class> <!-- Project_Mav.Data_Provider -->
+      </class> <!-- Project_Mav.TestQA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

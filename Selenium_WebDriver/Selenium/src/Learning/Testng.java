@@ -18,7 +18,7 @@ public void BeforeTest() throws InterruptedException {
 	Thread.sleep(3000);
 }
 
-@Test(priority=0)
+@Test(priority=0)            //priority set
 public void login() throws InterruptedException {
 	driver.findElement(By.name("username")).sendKeys("Admin");
 	 driver.findElement(By.name("password")).sendKeys("admin123"); //send password.
@@ -27,12 +27,18 @@ public void login() throws InterruptedException {
 	
 }
 
-@Test(priority=1)
+@Test(enabled = false)     //disabled test case
 public void logout() throws InterruptedException {
-	driver.findElement(By.xpath("//*[@class=\"oxd-icon bi-caret-down-fill oxd-userdropdown-icon\"]")).click(); //dropdown
+	driver.findElement(By.xpath("//*[@class=\"oxd-icon bi-caret-down-fill oxd-userdropdown-icon\"]")).click(); //drop down
     Thread.sleep(3000);   //waiting time
     driver.findElement(By.xpath("//*[@href=\"/web/index.php/auth/logout\"]")).click();
 }
+
+@Test(invocationCount = 3)      //runs same test for given number of times
+public void LOOP() {
+	System.out.println("Multi run");
+}
+
   @AfterTest
   public void afterTest() {
 	  driver.close();

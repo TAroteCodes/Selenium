@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Find_Duplicates_using_sets {
+public class FindDuplicatesUsingSets {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")

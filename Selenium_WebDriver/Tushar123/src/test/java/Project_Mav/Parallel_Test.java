@@ -14,6 +14,7 @@ import org.testng.annotations.AfterTest;
 public class Parallel_Test {
         WebDriver wd;
         @Parameters("mybrowser")
+        
   @BeforeTest
   public void beforeTest(String mybrowser) 
   {

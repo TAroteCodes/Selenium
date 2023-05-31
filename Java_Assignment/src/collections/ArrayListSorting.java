@@ -4,7 +4,7 @@ package collections;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ArrayList_Sorting {
+public class ArrayListSorting {
 
 	public static void main(String[] args) {
 		ArrayList<String> arr= new ArrayList<String>();                                 // creating arreayList

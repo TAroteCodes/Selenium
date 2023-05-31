@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class Removing_duplicates_from_ArrayList {
+public class RemovingDuplicatesFromArrayList {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> num = new ArrayList<Integer>(Arrays.asList(1,2,3,5,7,4,1,3,8,4,7,6,5,5,8,7)); //defining arrayList

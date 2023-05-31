@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class String_map {
+public class FrequencyOfTheCharacterUsingMap {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")

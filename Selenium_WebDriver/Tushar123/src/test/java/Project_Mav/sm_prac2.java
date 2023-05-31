@@ -11,10 +11,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class sm_prac2 {
 
 	public static void main(String[] args) throws AWTException, InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\selenium\\chromedriver.exe"); //setting the path for chrome driver
+		WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver","C:\\selenium\\chromedriver.exe"); //setting the path for chrome driver
 		WebDriver wb=new ChromeDriver(); //creating object for chrome driver
 		Actions act=new Actions(wb);
 		wb.manage().window().maximize();

@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-17T10:52:40 IST" name="Default suite" finished-at="2023-02-17T10:52:40 IST" duration-ms="58">
+  <suite started-at="2023-05-25T22:36:33 IST" name="Default suite" finished-at="2023-05-25T23:02:56 IST" duration-ms="1583043">
     <groups>
-      <group name="Regression">
-        <method signature="GroupTest.testcase2()[pri:1, instance:Project_Mav.GroupTest@55f616cf]" name="testcase2" class="Project_Mav.GroupTest"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="GroupTest.testcase1()[pri:0, instance:Project_Mav.GroupTest@55f616cf]" name="testcase1" class="Project_Mav.GroupTest"/>
-        <method signature="GroupTest.testcase3()[pri:2, instance:Project_Mav.GroupTest@55f616cf]" name="testcase3" class="Project_Mav.GroupTest"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-02-17T10:52:40 IST" name="Default test" finished-at="2023-02-17T10:52:40 IST" duration-ms="58">
-      <class name="Project_Mav.GroupTest">
-        <test-method signature="testcase1()[pri:0, instance:Project_Mav.GroupTest@55f616cf]" started-at="2023-02-17T10:52:40 IST" name="testcase1" finished-at="2023-02-17T10:52:40 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-05-25T22:36:33 IST" name="Default test" finished-at="2023-05-25T23:02:56 IST" duration-ms="1583043">
+      <class name="Project_Mav.Checking">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Project_Mav.Checking@152aa092]" started-at="2023-05-25T22:36:33 IST" name="beforeTest" finished-at="2023-05-25T22:59:18 IST" duration-ms="1365150" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method signature="testcase2()[pri:1, instance:Project_Mav.GroupTest@55f616cf]" started-at="2023-02-17T10:52:40 IST" name="testcase2" finished-at="2023-02-17T10:52:40 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Project_Mav.Checking@152aa092]" started-at="2023-05-25T22:59:18 IST" name="beforeMethod" finished-at="2023-05-25T23:02:45 IST" duration-ms="207502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:2, instance:Project_Mav.GroupTest@55f616cf]" started-at="2023-02-17T10:52:40 IST" name="testcase3" finished-at="2023-02-17T10:52:40 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddingNewUser()[pri:0, instance:Project_Mav.Checking@152aa092]" started-at="2023-05-25T23:02:45 IST" name="AddingNewUser" finished-at="2023-05-25T23:02:56 IST" duration-ms="10342" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase3 -->
-      </class> <!-- Project_Mav.GroupTest -->
+        </test-method> <!-- AddingNewUser -->
+      </class> <!-- Project_Mav.Checking -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
